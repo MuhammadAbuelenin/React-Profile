@@ -1,0 +1,77 @@
+{
+    "works" : [
+        {
+            "id" : 1,
+            "icon_name": "icon fa fa-chain fa-2x",
+            "title": "Web Development",
+            "body": "Web development is the work involved in developing a Web site for the Internet (World Wide Web) while im responsible for behavior and visuals that run in the user browser."
+        },
+        {
+            "id" : 2,
+            "icon_name": "icon fa fa-bolt fa-2x",
+            "title": "Data Analyst",
+            "body": "Designing and maintaining data systems and databases; this includes fixing coding errors and other data-related problems and Preparing reports for executive leadership."
+        },
+        {
+            "id" : 3,
+            "icon_name": "icon fa fa-tachometer fa-2x",
+            "title": "Project Management",
+            "body": "Planning, Executing, Monitoring, Controlling, and Closing Projects, while Activity & resource planning, Analyzing and managing project risk so you can Monitor your progress."
+        }
+    ],
+
+    "portfolio" : [
+        {
+            "id":1,
+            "image": "/img/portfolio-img1.jpg"
+        },
+        {
+            "id":2,
+            "image": "/img/portfolio-img2.jpg"
+        },
+        {
+            "id":3,
+            "image": "/img/portfolio-img3.jpg"
+        },
+        {
+            "id":4,
+            "image": "/img/portfolio-img4.jpg"
+        },
+        {
+            "id":5,
+            "image": "/img/portfolio-img5.jpg"
+        },
+        {
+            "id":6,
+            "image": "/img/portfolio-img6.jpg"
+        },
+        {
+            "id":7,
+            "image": "/img/portfolio-img4.jpg"
+        },
+        {
+            "id":8,
+            "image": "/img/portfolio-img8.jpg"
+        }
+    ] ,
+    "social" : [
+        {
+            "id": 1,
+            "icon" : "icon fa fa-facebook fa-lg",
+            "title" : "Follow Me on",
+            "body" : "Social Facebook"
+        },
+        {
+            "id": 2,
+            "icon" : "icon fa fa-twitter fa-lg",
+            "title" : "Tweet Me on",
+            "body" : "Social twitter"
+        },
+        {
+            "id": 3,
+            "icon" : "icon fa fa-pinterest fa-lg",
+            "title" : "Pin Me on",
+            "body" : "Social Pinterest"
+        }
+    ] 
+}

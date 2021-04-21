@@ -1,0 +1,144 @@
+.profile_skills {
+    padding: 50px 0;
+    overflow: hidden;
+    /* margin-top: 90px; */
+    background-color: #333;
+    color: #fff;
+    width: 85%;
+    border-radius: 15px 15px;
+}
+
+.profile-title {
+    background-color: transparent;
+}
+
+span{
+    background-color: transparent;
+}
+
+.skills-title{
+        background-color: transparent;
+        color: #fff;
+}
+
+.span {
+    color: #fac90a !important;
+}
+
+.span1 {
+    color: #fac90a;
+}
+
+
+.profile_skills .profile {
+    width: 50%;
+    float: left;
+    background-color: transparent;
+}
+
+.profile_skills .profile .profile-list {
+    list-style: none;
+    background-color: transparent;
+}
+
+.profile_skills .profile .profile-list .profile-item {
+    margin-bottom: 8px;
+    background-color: transparent;
+}
+
+.profile_skills .profile .profile-list .profile-item span{
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.profile_skills .profile .profile-list .profile-item span.web {
+    font-weight: normal;
+    color: #fac90a;
+    background-color: transparent;
+}
+
+.profile_skills .skills {
+    width: 50%;
+    float: left;
+    background-color: transparent;
+}
+
+.profile_skills .skills .skills-desc {
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.profile_skills .skills .bar {
+    overflow: hidden;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+
+.profile_skills .skills .bar .title {
+    float: left;
+    background-color: transparent;
+}
+
+.profile_skills .skills .bar .perc {
+    float: right;
+    margin-right: 100px;
+    background-color: transparent;
+}
+
+.profile_skills .skills .bar .parent {
+    height: 2px;
+    clear: both;
+    background: #f8f8f8;
+    position: relative;
+    top: 5px;
+    background-color: transparent;
+}
+
+.profile_skills .skills .bar .parent span {
+    background: #fac90a;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.profile_skills .skills .bar .parent span.sp1 {
+    width: 100%;
+}
+
+.profile_skills .skills .bar .parent span.sp2 {
+    width: 90%;
+}
+
+.profile_skills .skills .bar .parent span.sp3 {
+    width: 80%;
+}
+
+.profile_skills .profile .profile-title,
+.profile_skills .skills .skills-title{
+    font-size: 40px; 
+    margin-bottom: 20px
+}
+
+.profile_skills .profile .profile-title span,
+.profile_skills .skills .skills-title span{
+    font-weight: normal;
+}
+
+@media (max-width:768px) {
+    .profile_skills .profile , 
+    .profile_skills .skills {
+        width: 100%;
+        float: none
+    }
+    .profile_skills .profile {
+        margin-bottom: 20px
+    }
+}

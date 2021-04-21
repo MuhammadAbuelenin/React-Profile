@@ -1,0 +1,15 @@
+
+@media (max-width:991px) {
+    .creative {
+        height: auto
+    }
+    .creative .creative-info {
+        width: 100%;
+        padding-top: 10px;
+        float: none
+    }
+    
+    .creative .creative-info .info-dir {
+        font-size: 30px
+    }
+}
