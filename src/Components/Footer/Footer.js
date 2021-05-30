@@ -4,7 +4,7 @@ import './Footer.css'
 export default class Footer extends Component {
   render() {
     return (
-      <div class="footer">
+      <div className="footer">
             <p> copyright &copy; 2018 by React Portfolio </p>
         </div>
         

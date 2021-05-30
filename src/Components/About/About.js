@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {AboutImage, AboutInfo, AboutTitle, AboutThis, AboutCreator, AboutDesc, AboutDescA} from './Style'
+import {AboutImage, AboutInfo, AboutTitle, AboutThis, AboutCreator, AboutDesc, AboutDescA} from './style'
 import './About.css'
-import './Style'
+import './stynpmle'
 
 export default class About extends Component {
   render() {

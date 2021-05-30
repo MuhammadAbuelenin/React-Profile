@@ -6,16 +6,17 @@ import './Work.css';
 export default class Work extends Component {
 
     state = {
-      work : []
+      works : []
     }
 
     componentDidMount () {
-      axios.get('js/data.json').then( res => { this.setState ({ work : res.data.works})})
+      axios.get('js/data.json').then( res => { this.setState ({ works : res.data.works})})
     }
 
   render() {
 
-    const workList = this.state.work.map( (workItem) => {
+    const {works} = this.state;
+    const workList = works.map( (workItem) => {
 
       return (
         <div className="part first" key={workItem.id} first={workItem.id}>
